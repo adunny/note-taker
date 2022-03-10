@@ -24,5 +24,5 @@ app.get('/notes', (req, res) => {
 
 
 app.listen(PORT, () => {
-    console.log(`http://localhost:3001/ live on port ${PORT}.`);
+    console.log(`http://localhost:${PORT}/ is live!`);
 });
